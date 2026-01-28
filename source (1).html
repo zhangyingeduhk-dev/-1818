@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+                <style></style>
+            </head>
+            <body>
+                
+    
+        <meta charset="UTF-8">
+        <title>My 1st Calculaor</title>
+        
+        
+            <center>
+            <h3>⭐My Caculator  我的计算机⭐</h3>
+            <h6> Developer:  ZhangYing</h6>
+            <hr>
+            <input type="text" id="formula">
+            <button onclick="peter()">Calculate!</button>
+            <p id="answer"></p>
+            </center>
+            
+            
+
+                <script>function peter (){
+    var formula=document.getElementById("formula").value;
+    var result=eval(formula);
+    document.getElementById("answer").innerText=result;
+}</script>
+            
+        
+    </body>
